@@ -1,0 +1,123 @@
+*
+{
+    scroll-behavior: smooth;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+body
+{
+    margin: 0;
+    background-color: lightblue;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+.headbar
+{
+    display: flex;
+    border: 1px solid;
+    top: 0px;
+    background-color: black;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    position: sticky;
+}
+.navbar
+{
+    margin: 0;
+    margin-left: 900px;
+    justify-content: space-between;
+}
+#books:hover,#reg:hover,#cu:hover,#lu:hover
+{
+    color: yellow;
+    cursor: pointer;
+}
+#books,#reg
+{
+    text-decoration: none;
+    color: white;
+}
+#books,#reg,#cu,#li
+{
+    padding: 10px;
+}
+.Bookpage
+{
+    border: 1px solid;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    padding: 0px 20px 20px 10px;
+    margin-left: 250px;
+}
+th,td
+{
+    width: 200px;
+    height: 35px;
+}
+#r1,tr,td
+{
+    height: 40px;
+    border-collapse: collapse;
+}
+tbody
+{
+    height: 150px;
+}
+table,th,td
+{
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+}
+.Container
+{
+    display: inline-block;
+    margin: 10px;
+}
+.Register 
+{
+    border: 1px solid;
+    border: none;
+    background-color: white;
+    padding: 0px 20px 20px 10px;
+    width: auto;
+    margin-bottom: 20px;
+    margin-left: 250px;
+    border-radius: 5px;
+}
+h2
+{
+    padding-top: 30px;
+    font-family: 'Comic Sans MS', cursive;
+    text-align: center;
+}
+.Register input,button
+{
+    width: 100%;
+    height: 5%;
+}
+label
+{
+    font-weight: 700;
+}
+input
+{
+    margin:5px;
+}
+input:active
+{
+    background-color: skyblue;
+}
+#register_sub
+{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#register_sub:hover
+{
+    cursor: pointer;
+    background-color: rgb(52, 50, 50);
+}
